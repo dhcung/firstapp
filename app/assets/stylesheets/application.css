@@ -1,0 +1,266 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ html {
+  overflow-y: scroll;
+}
+
+body {
+   padding-top: 20px;
+   background-color:  #cff;
+}
+#headerwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+}
+#navigationwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+}
+
+#navigation {
+    height: 40px;
+    background: #FFCC33;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ebb81f;
+    margin: 5px;
+}
+#contentwrap {
+    width: 800px;
+    float: left;
+    margin: 0 auto;
+}
+
+#content {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+    margin: 5px;
+}
+
+#leftcolumnwrap {
+    width: 180px;
+    float: left;
+    margin: 0 auto;
+}
+
+#leftcolumn {
+    background: #33CCFF;
+    border-radius: 10px;
+    border: 1px solid #1fb8eb;
+    margin: 5px;
+}
+#footerwrap {
+    width: 1000px;
+    float: left;
+    margin: 0 auto;
+    clear: both;
+}
+
+#footer {
+    height: 40px;
+    background: #33FF66;
+    border-radius: 10px;
+    border: 1px solid #1feb52;
+    margin: 5px;
+    padding-top: 10px;
+}
+
+
+section
+{
+
+ margin-top: 1em;
+ font-size: 120%;
+ padding:  20px;
+ 
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+/* Link */
+a{
+ color: #09c;
+ text-decoration: none;
+
+}
+a:hover
+{
+   color: #069;
+   text-decoration: underline;
+}
+a:visited
+{
+ color: #069;
+ 
+}
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+/* header */
+
+#logo {
+  float: center;
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+  background-color: #006400;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+ .contianer
+ {
+  width: 1000px;
+  margin: 20px;
+ }
+.center {
+  text-align: center;
+}
+
+#header {
+    height: 100px;
+    background: #FF6633;
+    border-radius: 10px;
+    border: 1px solid #eb521f;
+    margin: 5px;
+}
+
+/* header */
+header
+{
+ padding-top: 20px;
+ 
+}
+header img
+{
+    padding :1em ;
+    background: #fff;
+}
+/*menu */
+nav
+{
+ float: left; 
+ background: white;
+ padding: 0 0.7em;
+ white-space: nowrap;
+
+}
+nav ul {
+ margin: 0;
+ padding:0;
+}
+nav ul li {
+ list-style-type:  none;
+ display: inline-block; 
+    padding: 0.2em 0;
+}
+nav ul li a {
+ padding: 0 5px;
+    font-weight:bold; 
+}
+nav ul li a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+nav ul li a:visited {
+  color: #069;
+
+}
+
+
+
+/* footer */
+
+
+.round
+{
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu {
+  width: 150px;
+  border-style: solid solid none solid;
+  border-color: #94AA74;
+  border-size: 1px;
+  border-width: 1px;
+  margin: 10px;
+}
+  
+#menu li a {
+  height: 32px;
+    voice-family: "\"}\""; 
+    voice-family: inherit;
+    height: 24px;
+  text-decoration: none;
+} 
+  
+#menu li a:link, #menu li a:visited {
+  color: #5E7830;
+  display: block;
+  background: url('/assets/menu1.png');
+  padding: 8px 0 0 10px;
+}
+  
+#menu li a:hover {
+  color: #26370A;
+  background: url('/assets/menu2.png') 0 -32px;
+  padding: 8px 0 0 10px;
+}
+  
+#menu li a:active {
+  color: #26370A;
+  background: url('/assets/menu3.png') 0 -64px;
+  padding: 8px 0 0 10px;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
